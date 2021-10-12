@@ -1,0 +1,14 @@
+.container{
+    background-color: rgb(5, 5, 104);
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+#container_scacchiera{
+    margin: auto;
+}
