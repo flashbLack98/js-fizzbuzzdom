@@ -14,19 +14,16 @@ h1{
     width: 80%;
 }
 
-.row_cols_7>*{
-    width: calc(100% / 7);
-    flex: 0 0 auto;
-}
-
-.my_col{
-    display: inline-flex;
+.row_cols_7{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .my_cella{
+    width: calc(100% / 7 - 10px) ;
     background-color: rgb(1, 104, 201);
     height: 140px;
-    width: 140px;
     display: flex;
     justify-content: center;
     align-items: center;

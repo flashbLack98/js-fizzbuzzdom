@@ -26,13 +26,10 @@ row.classList.toggle("row_cols_7");
 scacchiera.append(row);
 for (i = 1; i <= 100; i++) {
 
-    let col = document.createElement("div");
-    row.append(col);
-    col.classList.add("my_col", "ratio", "ratio-1x1");
 
     let cella = document.createElement("div");
-    col.append(cella);
-    cella.classList.toggle("my_cella");
+    row.append(cella);
+    cella.classList.add("my_cella");
     cella.innerHTML = `<p>${i}</p>`;
 
     let fizz = `<p>fizz</p>`;
