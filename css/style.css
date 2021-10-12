@@ -1,5 +1,5 @@
 .container{
-    background-color: rgb(5, 5, 104);
+    background-color: #083b4c;
 
 }
 
@@ -11,5 +11,37 @@ h1{
 
 #container_scacchiera{
     margin: auto;
-    width: 1000px;
+    width: 80%;
+}
+
+.row_cols_7>*{
+    width: calc(100% / 7);
+    flex: 0 0 auto;
+}
+
+.my_col{
+    display: inline-flex;
+}
+
+.my_cella{
+    background-color: rgb(1, 104, 201);
+    height: 140px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_cella p{
+     font-size: 25px;
+}
+
+
+
+.multipli_cinque{
+    background-color: yellow;
+}
+
+.multipli_quindici{
+    background-color: rgb(235, 60, 60);
 }
